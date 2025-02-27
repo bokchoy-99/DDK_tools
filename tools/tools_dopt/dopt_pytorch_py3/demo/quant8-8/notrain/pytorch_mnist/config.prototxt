@@ -1,0 +1,10 @@
+strategy: 'Quant_INT8-8'
+device: USE_GPU
+preprocess_parameter:
+{
+    input_type: IMAGE
+    image_format: RGB
+    input_file_path: './mnist_test'
+    mean_value: 0.5
+    standard_deviation: 0.5
+}
