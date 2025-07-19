@@ -1,2 +1,5 @@
 
 ./omg --model PatchNet_color.onnx --framework 5 --output ./PatchNet_color
+
+./omg --model TestNPU_OP_Conv_311_h720_w1280_input_c16_output_c32_act_relu.onnx --framework 5 --output ./TestNPU_OP_Conv_311_h720_w1280_input_c16_output_c32_act_relu
+
